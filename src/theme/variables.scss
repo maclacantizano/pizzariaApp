@@ -74,7 +74,22 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+  --ion-color-tiktok: #8a0037;
+  --ion-color-tiktok-rgb: 138,0,55;
+  --ion-color-tiktok-contrast: #ffffff;
+  --ion-color-tiktok-contrast-rgb: 255,255,255;
+  --ion-color-tiktok-shade: #790030;
+  --ion-color-tiktok-tint: #961a4b;
 }
+
+.ion-color-tiktok {
+  --ion-color-base: var(--ion-color-tiktok);
+  --ion-color-base-rgb: var(--ion-color-tiktok-rgb);
+  --ion-color-contrast: var(--ion-color-tiktok-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-tiktok-contrast-rgb);
+  --ion-color-shade: var(--ion-color-tiktok-shade);
+  --ion-color-tint: var(--ion-color-tiktok-tint);}
 
 @media (prefers-color-scheme: dark) {
   /*
